@@ -1,0 +1,1 @@
+The current project is about creating a google search home page. Today is the 11th december 2020.

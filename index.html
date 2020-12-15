@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+    <html>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color:white;
+                margin: 0;
+                padding: 0;
+            }
+            .navbar{
+                position: relative;
+                height: 20px;
+            }
+            ul{
+                list-style-type: none;
+                float: right;
+            }
+            .lista{
+                display: inline;
+                font-size: 13px;
+                padding-right: 10px;
+            }
+            .lista a{
+                text-decoration: none;
+                color: rgba(0,0,0,0.87);
+            } /*Termina nav bar css, comienza google main*/
+            .google-main{
+                height: 250px;
+                width: 1920px;
+                position: absolute;
+                top: 200px;
+            }
+            .google-img{
+                height: 92px;
+                width: 272px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 10px;                            
+            }
+            .google-search-bar{
+                background-color: transparent;
+                border:none;
+                position: absolute;
+                bottom: 115px;
+                left: 715px;       
+            }
+            .search-bar{
+                background: #fff;
+                border: 1px solid #dfe1e5;
+                box-shadow:none;
+                border-radius: 24px;
+                height: 44px;
+                width: 582px;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                }
+            .lupita{
+                width: 26px;
+                height: 26px;
+                position: absolute;
+                bottom: 112px;
+                left: 674px;
+            } 
+            .extra-search-a{
+                height: 36px;
+                width: 153px;
+                border-radius: 4px;
+                border: 1px solid #f8f9fa;
+                font-size: 14px;
+                padding: 8px 14px 8px 14px;
+                line-height: 35px;
+                text-align: center;
+                background-color: #f8f9fa;
+                color: #202124;
+                display: inline;
+                position: relative;
+                left: 770px;
+                top: 20px;              
+                }
+                .extra-search-a a{
+                    text-decoration:none;
+                    color: #202124;
+                }
+            .extra-search-b{
+                border-radius: 4px;
+                border: 1px solid #f8f9fa;
+                font-size: 14px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 14px;
+                padding-right: 14px;
+                line-height: 35px;
+                text-align: center;
+                background-color: #f8f9fa;
+                color: #202124;
+                display: inline;
+                position: relative;
+                left:810px;
+                top: 20px;
+            } 
+            .extra-search-b a{
+                    text-decoration:none;
+                    color: #202124;
+            }
+            
+            /*comienza footer*/
+            .footer{
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #f2f2f2; 
+                border: 1px solid #d1d1d1;
+            }
+            .footer-1{
+                border-bottom: 1px solid #d1d1d1;
+            }
+            .footer-1 p{
+                margin:12px;
+                color: #7a7979;
+                font-size: 13px;
+            }
+            .footer-2{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                font-size: 13px;
+            }
+            .footer-2 li{
+                display: inline-block;
+                color: #7a7979;
+                text-decoration: none;
+                padding:12px;
+            }    
+        </style>
+
+            <body>
+                <navbar class="navbar">
+                    <ul>
+                        <li class="lista"><a href="#">Gmail</a></li>
+                        <li class="lista"><a href="#">Imagenes</a></li>
+                        <li class="lista"><a href="#">Perfil</a></li>
+                    </ul>
+                </navbar>
+
+                <section class="google-main">
+                    <img class="google-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                        <div class="search-bar"></div>
+                        <img class="lupita" src="https://image.freepik.com/vector-gratis/lupa-aislada-fondo-blanco_103688-405.jpg">
+                        <input class="google-search-bar" type="text" name="google" class="name" autofocus>
+                        
+                            <div class="extra-search-a"><a href="#">Buscar con Google</a></div>
+                            <div class="extra-search-b"><a href="#">Me siento con suerte</a></div>
+                            
+                    </section>
+
+                <div class="footer">
+
+                    <div class="footer-1">
+                        <p>Suecia</p>
+                    </div>
+
+                    <div class="footer-2">
+                        <li>Publicidad</li>
+                        <li>Negocios</li>
+                        <li>Sobre Google</li>
+                        <li>Como funciona la búsqueda</li>
+                        <li style="float:right">Privacidad</li>
+                        <li style="float:right">Condiciones</li>
+                        <li style="float:right">Preferencias</li>
+                    </div>
+                </div>    
+                </section>
+            </body>
+
+    </html>
